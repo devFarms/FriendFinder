@@ -10,7 +10,7 @@ var PORT = process.env.PORT || 3000;
 var jsonParser = bodyParser.json()
  
 // create application/x-www-form-urlencoded parser
-var urlencodedParser = bodyParser.urlencoded({ extended: false })
+app.use(bodyParser.urlencoded({ extended: true }));
  
 // parse various different custom JSON types as JSON
 app.use(bodyParser.json({ type: 'application/*+json' }))

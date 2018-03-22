@@ -1,21 +1,23 @@
 <!DOCTYPE html>
-<html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
 
-<head>
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--Import materialize.css-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.css">
-    <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-</head>
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
 
-<body>
-    <div class="row">
-        <div class="col s12" style="background-image: url(http://www.alexrossart.com/assets/images/gallery/large/JLA-Good_x_Evil.jpg); padding-top: 400px;">
-            <h1 style="color: rgb(255,255,255); font-weight: 900;">Superhero Friend Finder</h1>
+    <body>
+      <div class="row" style="background-color: rgb(0,0,0);">
+        <div class="col s12" style="background-image: url(http://www.alexrossart.com/assets/images/gallery/large/JLA-Good_x_Evil.jpg); color: rgb(255,255,255);  padding: 100px 0; text-align: center;">
+          <h1 style="font-family: 'Bangers', cursive; font-size: 900%; font-weight: 900; margin: 0; padding: 0;">Superhero</h1>
+          <h2 style="font-size: 400%; font-style: italic; margin: 0; padding: 0;">FriendFinder</h2>
         </div>
-    </div>
+      </div>
     <div class="container">
         <form>
             <div class="row">
@@ -23,12 +25,12 @@
                     <h2>About You...</h2>
                     <div class="row">
                         <div class="input-field col s12 m6">
-                            <input placeholder="Placeholder" id="your_name" type="text" class="validate">
-                            <label for="Your_name">Your Name</label>
+                            <input placeholder="Placeholder" id="name" type="text" class="validate">
+                            <label for="name">Your Name</label>
                         </div>
                         <div class="input-field col s12 m6">
-                            <input id="your_picture" type="text" class="validate">
-                            <label for="your_picture">Link to your picture</label>
+                            <input id="photo" type="text" class="validate">
+                            <label for="photo">Link to your picture</label>
                         </div>
                     </div>
                 </div>
@@ -42,7 +44,7 @@
                     <p>You feel an irresistable urge to save that cat in the tree?</p>
                     <div class="row">
                         <div class="input-field col s12">
-                            <select>
+                            <select data-placeholder="" id="q1">
                                 <option value="" disabled selected>Choose your option</option>
                                 <option value="1">1</option>
                                 <option value="2">2</option>
@@ -63,7 +65,7 @@
                     <p>You feel an irresistable urge to save that cat in the tree?</p>
                     <div class="row">
                         <div class="input-field col s12">
-                            <select>
+                            <select data-placeholder="" id="q2">
                                 <option value="" disabled selected>Choose your option</option>
                                 <option value="1">1</option>
                                 <option value="2">2</option>
@@ -84,7 +86,7 @@
                     <p>You feel an irresistable urge to save that cat in the tree?</p>
                     <div class="row">
                         <div class="input-field col s12">
-                            <select>
+                            <select data-placeholder="" id="q3">
                                 <option value="" disabled selected>Choose your option</option>
                                 <option value="1">1</option>
                                 <option value="2">2</option>
@@ -105,7 +107,7 @@
                     <p>You feel an irresistable urge to save that cat in the tree?</p>
                     <div class="row">
                         <div class="input-field col s12">
-                            <select>
+                            <select data-placeholder="" id="q4">
                                 <option value="" disabled selected>Choose your option</option>
                                 <option value="1">1</option>
                                 <option value="2">2</option>
@@ -126,7 +128,7 @@
                     <p>You feel an irresistable urge to save that cat in the tree?</p>
                     <div class="row">
                         <div class="input-field col s12">
-                            <select>
+                            <select data-placeholder="" id="q5">
                                 <option value="" disabled selected>Choose your option</option>
                                 <option value="1">1</option>
                                 <option value="2">2</option>
@@ -147,7 +149,7 @@
                     <p>You feel an irresistable urge to save that cat in the tree?</p>
                     <div class="row">
                         <div class="input-field col s12">
-                            <select>
+                            <select data-placeholder="" id="q6">
                                 <option value="" disabled selected>Choose your option</option>
                                 <option value="1">1</option>
                                 <option value="2">2</option>
@@ -168,7 +170,7 @@
                     <p>You feel an irresistable urge to save that cat in the tree?</p>
                     <div class="row">
                         <div class="input-field col s12">
-                            <select>
+                            <select data-placeholder="" id="q7">
                                 <option value="" disabled selected>Choose your option</option>
                                 <option value="1">1</option>
                                 <option value="2">2</option>
@@ -189,7 +191,7 @@
                     <p>You feel an irresistable urge to save that cat in the tree?</p>
                     <div class="row">
                         <div class="input-field col s12">
-                            <select>
+                            <select data-placeholder="" id="q8">
                                 <option value="" disabled selected>Choose your option</option>
                                 <option value="1">1</option>
                                 <option value="2">2</option>
@@ -210,7 +212,7 @@
                     <p>You feel an irresistable urge to save that cat in the tree?</p>
                     <div class="row">
                         <div class="input-field col s12">
-                            <select>
+                            <select data-placeholder="" id="q9">
                                 <option value="" disabled selected>Choose your option</option>
                                 <option value="1">1</option>
                                 <option value="2">2</option>
@@ -231,7 +233,7 @@
                     <p>You feel an irresistable urge to save that cat in the tree?</p>
                     <div class="row">
                         <div class="input-field col s12">
-                            <select>
+                            <select data-placeholder="" id="q10">
                                 <option value="" disabled selected>Choose your option</option>
                                 <option value="1">1</option>
                                 <option value="2">2</option>
@@ -245,13 +247,33 @@
             </div>
 
             <div class="row">
-                <a class="waves-effect waves-light btn-large">Button</a>
-                <hr />
-              Friends List | Github Repo
+                <button class="waves-effect waves-light btn-large" type="submit" id="submit">Submit</button>
             </div>
-            
         </form>
     </div>
+    <footer class="page-footer">
+            <div class="container">
+              <div class="row">
+                <div class="col l6 s12">
+                  <h5 class="white-text">Superhero Friend Finder</h5>
+                  <p class="grey-text text-lighten-4">Please click on the link to the right to see that the DATA is there in the correct format.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                  <h5 class="white-text">Links</h5>
+                  <ul>
+                    <li><a class="grey-text text-lighten-3" href="./api/friends">Friends JSON</a></li>
+                    <li><a class="grey-text text-lighten-3" href="https://github.com/devFarms/FriendFinder">GitHUB Repo</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="footer-copyright">
+              <div class="container">
+              © 2018 Copyright bitFarmer
+              <a class="grey-text text-lighten-4 right" href="http://devfarms.com">devFarms.com</a>
+              </div>
+            </div>
+          </footer>
         <!--Import jQuery before materialize.js-->
         <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.js"></script>
@@ -259,6 +281,31 @@
         $(document).ready(function() {
             $('select').material_select();
         });
+
+        $('#submit').on('click', function(){
+            alert('Button Working!')
+            var userData = {
+                name: $('#name').val(),
+                photo: $('#photo').val(),
+                scores: [
+                    $('#q1').val(),
+                    $('#q2').val(),
+                    $('#q3').val(),
+                    $('#q4').val(),
+                    $('#q5').val(),
+                    $('#q6').val(),
+                    $('#q7').val(),
+                    $('#q8').val(),
+                    $('#q9').val(),
+                    $('#q10').val(),
+                ]
+            };
+
+            var currentUrl = window.location.origin;
+            $.post(currentUrl + '/api/friends', userData, function(data){
+                alert('Submit Working');
+            });
+        })
         </script>
 </body>
 
