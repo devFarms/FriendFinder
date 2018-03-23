@@ -1,0 +1,32 @@
+#banner-area {
+    background: url(/images/JLA-Good_x_Evil.png);
+    color: rgb(255,255,255);
+    padding: 100px 0;
+    text-align: center;
+}
+
+#banner-area h1 {
+    font-family: 'Bangers', cursive;
+    font-size: 900%;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+
+#banner-area h2 {
+    font-size: 400%;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: 'Bangers', cursive;
+    font-size: 600%;
+}
+
+p {
+    font-size: 200%;
+}
+
+footer p { font-size: 100%; }
